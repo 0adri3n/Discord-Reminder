@@ -9,7 +9,7 @@
 3. Active developer mode.
 4. Click "Load unpacked".
 5. Choose Discord Reminder folder.
-6. Set your webhook on clicking at setting button.
+6. Set your webhook on clicking at setting button. (To create a webhook, check step 1 at: https://www.digitalocean.com/community/tutorials/how-to-use-discord-webhooks-to-get-notifications-for-your-website-status-on-ubuntu-18-04#:~:text=To%20create%20a%20webhook%20you,click%20the%20Create%20Webhook%20button.)
 7. Ready to use, just click "Remind me" and Discord Reminder will send the URL at the webhook !
 
 
