@@ -1,0 +1,27 @@
+{
+ "manifest_version": 2,
+ "name": "Discord Reminder",
+ "description": "Send URL to a Discord channel. Fast. Simple.", 
+ "version": "1.0", 
+"permissions": [
+ "http://*/*",
+ "https://*/*",
+    "tabs", 
+	"notifications" 
+],
+ "browser_action": {  
+  "default_icon" : "img/icondsd.png",
+  "default_popup": "popup.html" 
+ },
+ "icons": { 
+  "128" : "img/icondsd.png"
+ },
+  "content_scripts": [
+    {
+	  "matches": ["http://*/*"],
+      "css": ["style.css"],
+      "js": ["popup.js"],
+	  "all_frames": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+
+#mainbutton{
+	
+	background-color: #1b2735;
+	color: rgb(4, 92, 4);
+    box-shadow: 0 0 0px #1b2735;
+    width: 60%;
+    transition: 0.6s;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+	
+}
+
+#nekoicon{
+	
+	position: absolute;
+    top: 10%;
+    left: 38%;
+	width: 40px;
+	
+}
+
+#fuck{
+	
+	position: absolute;
+    top: 30%;
+    left: 32%;
+	font-size: 120%;
+	color: #64BF6A; 
+	
+}
+
+#setting {
+
+    background-image: url('img/setting.png');
+    background-size: 29px 29px;
+    background-color: transparent;
+    border: none !important;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
